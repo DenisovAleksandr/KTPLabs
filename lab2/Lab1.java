@@ -33,7 +33,7 @@ class Lab1 {
 		} else if (point2.eq3d(point3)) {
 			System.out.println("tochki 2 i 3 ravny");
 		} else if (point1.eq3d(point3)) {
-			System.out.println("tochki ravny");
+			System.out.println("tochki 1 i 3 ravny");
 		} else {
 			System.out.printf("Square - %.2f \n", computeArea(point1, point2, point3));
 		}
